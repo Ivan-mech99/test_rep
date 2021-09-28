@@ -175,9 +175,15 @@ void Boundary_conditions_test() {
 }
 
 int main() {
-  cout<<"Change1"<<endl;
-  cout<<"1-2000000"<<endl;
-  cout<<"fuu-666"<<endl;
+  cout << "Change1" << endl;
+  cout << "1-2000000" << endl;
+  cout << "fuu-666" << endl;
+  bool a = 1;
+  if (a) {
+    cout << "Truth" << endl;
+  } else {
+    cout << "Lies" << endl;
+  }
   Alloc_first_block();
   Alloc_3_blocks();
   Alloc_too_big_block();
