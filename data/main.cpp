@@ -176,6 +176,7 @@ void Boundary_conditions_test() {
 
 int main() {
   cout<<"Change1"<<endl;
+  cout<<"Change2"<<endl;
   Alloc_first_block();
   Alloc_3_blocks();
   Alloc_too_big_block();
