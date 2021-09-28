@@ -1,5 +1,5 @@
 CC=g++
-FLAGS=-std=c++17 -Wall -Werror -Wextra -Wno-unused-variable -fsanitize=address
+FLAGS=-std=c++17 -Wall -Wextra -Wno-unused-variable -fsanitize=address
 all: test
 
 test: main.o my_allocator.o
